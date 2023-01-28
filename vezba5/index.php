@@ -26,7 +26,7 @@
   {
 
     $tmpNiz=explode($_FILES['dat']['name']);
-    if($tmpNiz[count($_FILES['dat'])-1])=="docx"
+    if($tmpNiz[count($_FILES['dat'])-1])=="jpg"
     if(!move_uploaded_file($_FILES['dat']['tmp_name'],$imeDat))
   echo 'neuspelo prebacivanje datoteke na server!';
   }
