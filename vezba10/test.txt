@@ -1,0 +1,1 @@
+sadrzaj taktoteke test.txt koji treba da se vidi
